@@ -13,7 +13,7 @@ body {
   font:14px/1.5 Arial;
 }
 .page {
-    max-width:900px;
+    max-width:700px;
     margin:0 auto;
     display:flex;
     flex-wrap:wrap;
@@ -35,7 +35,7 @@ header p {
 }
 aside {
   width:240px;
-  padding:0 20px;
+  padding:0 5px 0 10px;
   border-right:2px solid #ccc;
   
 }
@@ -100,8 +100,8 @@ section h2 {
   margin:8px 0;
 }
 main {
-  flex:1;
-  padding:10px 20px;
+  width:460px;
+  padding:5px 8px;
   height:calc(100vh - 120px);
 }
 .school {
@@ -111,18 +111,22 @@ main {
 }
 .rope {
   display:flex;
-  padding:10px;
+  padding:5px 10px;
 }
 .rope img {
-  width:100px;
-  height:100px;
+  width:80px;
+  height:80px;
 }
 /*.rope p {
   margin-top:8px;
 }*/
 .rope .descript {
   flex:1;
-  margin-left:20px;
+  margin-left:10px;
 }
-
+.image-wrap {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 

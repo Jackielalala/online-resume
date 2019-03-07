@@ -1,0 +1,128 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a {
+    text-decoration:none;
+}
+ul, li {
+    list-style:none;
+}
+body {
+  font:14px/1.5 Arial;
+}
+.page {
+    max-width:900px;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+header {
+    height:120px;
+    background:#3c3c3c;
+    width:100%;
+    text-align:center;
+    padding-top:20px;;
+    color:#ccc;
+}
+header h1 {
+  color:white;
+  margin-bottom:5px;
+}
+header p {
+  font-size:16px;
+}
+aside {
+  width:240px;
+  padding:0 20px;
+  border-right:2px solid #ccc;
+  
+}
+aside .wrap-img {
+  text-align:center;
+  margin-top:-75px;
+}
+aside img {
+  width:150px;
+  border-radius:50%;
+  border:2px solid #ccc;
+}
+section {
+  border-bottom:2px solid #ccc;
+  padding-bottom:10px;
+  padding-top:10px;
+}
+section.contact {
+  border-bottom:none;
+}
+section.education {
+  padding-top:0;
+}
+section.honor {
+  border-bottom:none;
+}
+section h2 {
+  color:rgb(86,181,234);
+  padding-bottom:5px;
+}
+.items span {
+  display:inline-block;
+  width:90px;
+}
+.personal .items {
+  margin:8px 0;
+}
+.personal .items span:last-child::before {
+  content:':';
+  margin-right:20px;
+  font-weight:bold;
+}
+.details .items {
+  display:flex;
+  align-items:center;
+  margin:8px 0;
+}
+.details .items .rule {
+  flex:1;
+  height:4px;
+  background:#ccc;
+}
+.details .items .strength {
+  width:10%;
+  height:4px;
+  background:#3c3c3c;
+}
+.item span:first-child {
+  margin-right:10px;
+}
+.item {
+  margin:8px 0;
+}
+main {
+  flex:1;
+  padding:10px 20px;
+  height:calc(100vh - 120px);
+}
+.school {
+  display:flex;
+  justify-content:space-between;
+  margin:8px;
+}
+.rope {
+  display:flex;
+  padding:10px;
+}
+.rope img {
+  width:100px;
+  height:100px;
+}
+/*.rope p {
+  margin-top:8px;
+}*/
+.rope .descript {
+  flex:1;
+  margin-left:20px;
+}
+
+
